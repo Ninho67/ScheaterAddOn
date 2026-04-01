@@ -1,0 +1,50 @@
+{
+  "name": "Scheater",
+  "version": "1.20.0",
+  "slug": "scheater",
+  "description": "Simple and friendly multi-room Thermostat for Home Assistant",
+  "arch": ["aarch64", "amd64", "armhf", "armv7"],
+  "image": "hub.docker.com/r/cem67/addon-scheater-{arch}",
+  "startup": "application",
+  "boot": "auto",
+  "url": "https://scheater.io",
+  "init": false,
+  "ports": {
+    "8080/tcp": 8281
+  },
+  "ports_description": {
+    "8080/tcp": "Web interface (HTTP)"
+  },
+  "host_network": true,
+  "webui": "http://[HOST]:[PORT:8080]",
+  "ingress": true,
+  "ingress_port": 8080,
+  "panel_icon": "mdi:radiator",
+  "map": ["data:rw", "addon_config:rw"],
+  "options": {
+    "mqtt_broker": "",
+    "mqtt_port": 1883,
+    "mqtt_username": "",
+    "mqtt_password": "",
+    "log_level": "Information",
+    "timezone": "Europe/Amsterdam",
+    "license_key": ""
+  },
+  "schema": {
+    "mqtt_broker": "str?",
+    "mqtt_port": "port?",
+    "mqtt_username": "str?",
+    "mqtt_password": "password?",
+    "log_level": "list(Trace|Debug|Information|Warning|Error|Fatal)",
+    "timezone": "str?",
+    "license_key": "str"
+  },
+  "environment": {
+    "TZ": "Europe/Amsterdam"
+  },
+  "homeassistant_api": true,
+  "auth_api": false,
+  "backup": "cold",
+  "stage": "stable",
+  "services": ["mqtt:need"]
+}
