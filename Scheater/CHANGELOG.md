@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.10.0 - *In progress*
+- License checking added
+- Prepared for Home Assistant install as add-on
+- UI : styles and layouts fixed
+- Favicon fixed
+- Bugfix: cache handling on zone deletion
+- Bugfix: heater settings per zone were not created properly
+- Bugfix: Zone override form fixed
+- Useless controllers deleted
+
 ## 1.9.3 - 24/01/2026
 - UI issues fixed
 
