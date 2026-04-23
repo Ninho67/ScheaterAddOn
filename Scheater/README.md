@@ -1,6 +1,4 @@
-﻿<img src="./logo.png" alt="Logo" width="100">
-
-Scheater provides intelligent heating control by dynamically adjusting heater on/off cycles based on:
+﻿Scheater provides intelligent heating control by dynamically adjusting heater on/off cycles based on:
 - Current temperature vs. setpoint
 - External temperature
 - Window/door opening detection
@@ -47,7 +45,7 @@ The system uses a TPI algorithm to maintain precise temperature control while op
 
 Access the Scheater web interface through Home Assistant Ingress.
 
-![](./scheater_perpsective_dark.png)
+![](https://github.com/Ninho67/ScheaterAddOn/blob/main/Scheater/scheater_perpsective_dark.png)
 
 ## Docs & Support
 

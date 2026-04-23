@@ -3,17 +3,17 @@
   "version": "1.10.0",
   "slug": "scheater",
   "description": "Simple and friendly multi-room Thermostat for Home Assistant",
-  "arch": ["aarch64", "amd64", "armhf", "armv7"],
-  "image": "hub.docker.com/r/cem67/addon-scheater-{arch}",
+  "arch": ["aarch64", "amd64"],
+  "image": "cem67/addon-scheater-{arch}",
   "startup": "application",
   "boot": "auto",
-  "url": "https://scheater.io",
+  "url": "https://scheater.ch",
   "init": false,
   "ports": {
     "8080/tcp": 8281
   },
   "ports_description": {
-    "8080/tcp": "Web interface (HTTP)"
+    "8080/tcp": "Web interface (HTTP)" 
   },
   "host_network": true,
   "webui": "http://[HOST]:[PORT:8080]",
