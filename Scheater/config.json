@@ -1,6 +1,6 @@
 {
   "name": "Scheater",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "slug": "scheater",
   "description": "Simple and friendly multi-room Thermostat for Home Assistant",
   "arch": ["aarch64", "amd64"],
