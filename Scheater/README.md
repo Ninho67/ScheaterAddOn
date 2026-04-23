@@ -45,7 +45,7 @@ The system uses a TPI algorithm to maintain precise temperature control while op
 
 Access the Scheater web interface through Home Assistant Ingress.
 
-![](https://github.com/Ninho67/ScheaterAddOn/blob/main/Scheater/scheater_perpsective_dark.png)
+![](https://raw.githubusercontent.com/Ninho67/ScheaterAddOn/main/Scheater/scheater_perpsective_dark.png)
 
 ## Docs & Support
 
