@@ -1,13 +1,21 @@
 # Changelog
 
-## 1.10.0 - *In progress*
-- License checking added
-- Prepared for Home Assistant install as add-on
-- UI : styles and layouts fixed
-- Favicon fixed
+## 1.10.0 - 25/07/2026
+- Scheater can now run as a native Home Assistant add-on (ingress support, HA-provided timezone, base URL and DB connection handled automatically)
+- License checking added (powered by Lemon Squeezy)
+- Absence can now be triggered directly from an HA entity per user; scheduler checks both DB and HA to apply the absence set point
+- Users can now be edited (previously creation-only)
+- New ScheaterSensors accessor centralizes HA sensor reads and reduces the number of requests made to HA
+- Index page now updates live when thermostat state, temperature, battery level or window status changes, without a full refresh
+- Dropped armv7 support and automatic HTTPS redirect (incompatible with HA ingress)
+- UI: styles, layouts, favicon, calendar labels and color palettes fixed/improved
+- Absence status is now displayed in the UI
+- DB optimizations
 - Bugfix: cache handling on zone deletion
 - Bugfix: heater settings per zone were not created properly
-- Bugfix: Zone override form fixed
+- Bugfix: zone override form (heater selection, default timespan)
+- Bugfix: set point display
+- Bugfix: scheduling interval option was wrongly removed, causing thermostat workers to loop excessively
 - Useless controllers deleted
 
 ## 1.9.3 - 24/01/2026
