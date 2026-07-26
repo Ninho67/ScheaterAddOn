@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.10.0 - 25/07/2026
+## 1.10.0 - 26/07/2026
 - Scheater can now run as a native Home Assistant add-on (ingress support, HA-provided timezone, base URL and DB connection handled automatically)
 - License checking added (powered by Lemon Squeezy)
 - Absence can now be triggered directly from an HA entity per user; scheduler checks both DB and HA to apply the absence set point
