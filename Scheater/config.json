@@ -16,7 +16,7 @@
     "8080/tcp": "Web interface (HTTP)" 
   },
   "host_network": true,
-  "webui": "ingress",
+  "webui": "http://[HOST]:[PORT:8281]",
   "ingress": true,
   "ingress_port": 8080,
   "panel_icon": "mdi:radiator",
