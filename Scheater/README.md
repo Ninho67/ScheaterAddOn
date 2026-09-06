@@ -9,7 +9,9 @@ The system uses a TPI algorithm to maintain precise temperature control while op
 
 ## Installation
 
-1. Add this repository to your Home Assistant Add-on store
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FNinho67%2FScheaterAddOn)
+
+1. Click the button above (or add `https://github.com/Ninho67/ScheaterAddOn` manually in **Settings › Add-ons › Add-on store › ⋮ › Repositories** if the button doesn't pre-fill the dialog on your Home Assistant version)
 2. Install the "Scheater" add-on
 3. Configure the add-on (see Configuration section below)
 4. Start the add-on
