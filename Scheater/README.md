@@ -57,16 +57,19 @@ Full version history: [scheater.ch/changelog](https://scheater.ch/changelog).
 
 ## Quality
 
-![Tests](https://img.shields.io/badge/tests-245%20passing-blue)
-![Coverage](https://img.shields.io/badge/coverage-12.5%25-blue)
+![Tests](https://img.shields.io/badge/tests-281%20passing-blue)
+![Coverage](https://img.shields.io/badge/coverage-40.5%25-blue)
 
 Scheater is covered by an automated test suite (xUnit v3). The coverage figure is for the
 `Scheater` project only (the business logic — schedulers, licensing, backups...); it doesn't blend
-in the trivially-near-100%-covered test project itself, and Home Assistant integration / UI code is
-mostly exercised manually rather than through unit tests. Both badges are static and updated by
-hand at release time — no public CI badge yet, since the source lives in a private repository and
-this repo only mirrors the add-on's config/README/Docker image, so there's nothing here for a
-public CI badge to build against.
+in the trivially-near-100%-covered test project itself, and it excludes code that was never meant
+to be unit-tested: EF Core migrations (auto-generated, regenerated wholesale on every schema
+change) and local-only dev/test doubles (stand-ins for Home Assistant/MQTT used to work without
+real infrastructure, never part of the shipped add-on). Blazor UI code is mostly exercised manually
+rather than through unit tests. Both badges are static and updated by hand at release time — no
+public CI badge yet, since the source lives in a private repository and this repo only mirrors the
+add-on's config/README/Docker image, so there's nothing here for a public CI badge to build
+against.
 
 ## Premium Plan
 
