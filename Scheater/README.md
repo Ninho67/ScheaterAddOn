@@ -60,5 +60,18 @@ This contribution will enable me to continue developing new features in the futu
 
 Thank you for your support !
 
+### Offline grace period
+
+Scheater's whole point is to keep heating your home even when things go wrong, so a network hiccup
+must never turn off your Premium features. If your Home Assistant instance loses internet access,
+Premium features keep working for **30 days** before a fresh license check is required — plenty of
+margin for a long weekend, or longer, without connectivity.
+
+### Exit commitment
+
+If Scheater is ever discontinued, or if the licensing service stops working, a final version of the
+add-on with all Premium features unlocked and no license check will be published on GitHub. You will
+never be left with a bricked installation because the project or its licensing backend went away.
+
 ## Support
 Found a bug? [Open an issue here](https://github.com/Ninho67/ScheaterAddOn/issues)
