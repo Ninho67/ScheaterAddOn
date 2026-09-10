@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.11.0 - 10/09/2026
+- License deactivation button added to recycle a license key
+- Calendar view is now interactive
+- Privacy terms updated
+- Tests coverage is now close to 80% in business layer
+- Docs and web page updated
+
 ## 1.10.0 - 30/07/2026
 - Scheater can now run as a native Home Assistant add-on (ingress support, HA-provided timezone, base URL and DB connection handled automatically)
 - License checking added (powered by Lemon Squeezy)
