@@ -94,4 +94,5 @@ add-on with all Premium features unlocked and no license check will be published
 never be left with a bricked installation because the project or its licensing backend went away.
 
 ## Support
-Found a bug? [Open an issue here](https://github.com/Ninho67/ScheaterAddOn/issues)
+Found a bug, or something feels off? [Open an issue here](https://github.com/Ninho67/ScheaterAddOn/issues) —
+it's the single channel I watch, and I aim to respond within 24 hours.
