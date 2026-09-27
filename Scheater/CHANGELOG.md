@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.11.1 - 27/09/2026
+- Failures to read license key fixed
+- DB is now stored in persistent volume
+
 ## 1.11.0 - 10/09/2026
 - License deactivation button added to recycle a license key
 - Calendar view is now interactive
