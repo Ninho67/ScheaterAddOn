@@ -57,7 +57,7 @@ Full version history: [scheater.ch/changelog](https://scheater.ch/changelog).
 
 ## Quality
 
-![Tests](https://img.shields.io/badge/tests-299%20passing-blue)
+![Tests](https://img.shields.io/badge/tests-300%20passing-blue)
 ![Coverage](https://img.shields.io/badge/coverage-40.3%25-blue)
 
 Scheater is covered by an automated test suite (xUnit v3). The coverage figure is for the

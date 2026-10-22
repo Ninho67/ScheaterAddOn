@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.11.3 - 22/10/2026
+- Bugfix: after releasing a temperature override, heaters running a 100% heating cycle are stopped immediately
+
 ## 1.11.2 - 27/09/2026
 - HA client package had a bug. Replaced with a custom REST API client
 - Heaters dialog exception handling fixed
