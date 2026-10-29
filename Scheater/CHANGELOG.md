@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.11.4 - 29/10/2026
+- Bugfix: resilience added to sudden websocket disconnection
+
 ## 1.11.3 - 22/10/2026
 - Bugfix: after releasing a temperature override, heaters running a 100% heating cycle are stopped immediately
 
