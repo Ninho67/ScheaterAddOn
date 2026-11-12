@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.12.0 - 12/11/2026
+- Bugfix: another resilience fix regarding websockets
+- Feature: schedules can now be copied
+
 ## 1.11.4 - 29/10/2026
 - Bugfix: resilience added to sudden websocket disconnection
 
